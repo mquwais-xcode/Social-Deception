@@ -17,7 +17,7 @@ def Custom():
     clearscreens()
     Banner()
     print(f"""    {Fg.white}=[ {Sodec.name} {Fg.cyan}{Sodec.version} {Fg.white}({Fg.yellow}{Sodec.codename}{Fg.white}{Bg.black})
-{Fg.red}+{Fg.white}====[ {Fg.black}{Bg.white}GITHUB{Bg.green}{Fg.black} https://github.com/mquwais-xcode/sodec{Fg.white}{Bg.black}
+{Fg.red}+{Fg.white}====[ {Fg.black}{Bg.white}GITHUB{Bg.green}{Fg.black} https://github.com/mquwais-xcode/Social-Deception{Fg.white}{Bg.black}
 {Fg.red}+{Fg.white}====[ {Fg.red}{SOCIAL_ENGINEERING_METHODS} {Bg.red}{Fg.black}Total Social Engineering Methods{Bg.black}
 {Fg.red}+{Fg.white}====[ {Fg.green}[{Bg.green}{Fg.black}HINT{Bg.black}{Fg.green}] {Fg.yellow}{random.choice(hints)}
     {Fg.white}=[ {Fg.green}© {Fg.red}{Sodec.author}

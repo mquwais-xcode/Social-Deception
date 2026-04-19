@@ -1,3 +1,4 @@
+from core.menu.social_engineering_attacks import *
 from ui.console.clearscreen import *
 from ui.ansi.color.foreground import *
 from ui.ansi.color.background import *
@@ -19,8 +20,7 @@ def mainmenu():
         """)
         x = input(f"{Style.ask} Pick one: ")
         if x == "1":
-            print(f"{Style.error} Social engineering module is not created yet!")
-            sys.exit()
+            MenuSoceng()
         elif x == "2":
             print(f"{Style.error} This feature isnt created yet")
             sys.exit()
@@ -35,5 +35,5 @@ def mainmenu():
             cleanup()
             sys.exit()
         else:
-            print("{Style.error} {x} is not a valid input. are you newbie? Choose 3!")
+            print(f"{Style.error} {x} is not a valid input. are you newbie? Choose 3!")
             time.sleep(4)
